@@ -1,0 +1,51 @@
+.hero {
+  padding: 100px 0;
+  text-align: center;
+  width: 100%;
+}
+
+.hero h1 {
+  font-size: 60px;
+  color: var(--text-primary);
+  margin-bottom: 20px;
+}
+
+.hero h2 {
+  font-size: 30px;
+  color: var(--accent);
+  margin-bottom: 30px;
+}
+
+.hero p {
+  max-width: 600px;
+  margin: 0 auto;
+  font-size: 18px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 28px;
+  background: transparent;
+  color: var(--accent);
+  border: 1px solid var(--accent);
+  border-radius: 4px;
+  text-decoration: none;
+  margin-top: 30px;
+  transition: all 0.3s;
+  font-family: 'Fira Mono', monospace;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: rgba(100, 255, 218, 0.1);
+}
+
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 40px;
+  }
+  
+  .hero h2 {
+    font-size: 24px;
+  }
+}

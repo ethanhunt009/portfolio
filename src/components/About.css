@@ -1,0 +1,32 @@
+.about {
+  padding: 80px 0;
+  width: 100%;
+}
+
+.section-title {
+  font-size: 32px;
+  color: var(--text-primary);
+  margin-bottom: 40px;
+  position: relative;
+  font-family: 'Fira Mono', monospace;
+}
+
+.section-title::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 50px;
+  height: 2px;
+  background-color: var(--accent);
+}
+
+@media (max-width: 768px) {
+  .section-title {
+    font-size: 28px;
+  }
+  
+  .about {
+    padding: 60px 0;
+  }
+}
